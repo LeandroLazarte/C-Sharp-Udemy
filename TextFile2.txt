@@ -1,0 +1,28 @@
+//Los namespace -> clases -> metodos
+//Metodo writeline sirve para mostrar por consola		
+//Console.ReadKey(); Ver contenido de la consola y mantener abierta
+// SumaDosNumeros (Notación Pascal)	
+
+
+/****Calcular area y perimetro de un cuadrado****/
+
+1. Pedir altura del rectangulo
+2. Pedir ancho del rectangulo
+3. Calcular área multiplicando alto por ancho
+4. Calcular el perimetro sumando los 4 lados
+5. Mostrar el área
+6. Mostrar perímetro
+
+			Fin
+
+INICIO
+Variables: 
+		altura, ancho, area, perimetro: double.
+Escribir: ("Dame la altura");
+Leer : (altura);
+Escribir: ("Dame el ancho");
+Leer: (Ancho);
+Area <- altura * ancho;
+perimetro = 2(altura * ancho);
+Escribir: ("El area es: ", area);
+Escribir: ("El perimetro es: ",perimetro);
